@@ -1,0 +1,13 @@
+
+#header {
+    background-image: url(./stoma.jpeg);
+    background-size: cover;
+    background-position: 50% 25%;
+    padding: 200px;
+    color: white;
+}
+
+#menu li {
+    display: inline;
+    list-style: none;
+}
