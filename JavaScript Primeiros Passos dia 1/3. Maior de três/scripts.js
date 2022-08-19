@@ -7,8 +7,10 @@ const c = 26;
 
 if (a > b && a > c) {
     console.log('O maior dos 3 é '+ a);
-} else if (b > a && b > c) {
+} else if (b > c) {
     console.log('O maior dos 3 é '+ b);
 } else {
     console.log('O maior dos 3 é ' + c);
 }
+
+// 
