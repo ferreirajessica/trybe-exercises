@@ -1,13 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 #main-title {
     text-align: center;
     margin-top: 5%;
+    font-size: x-large;
+}
+.title {
+    text-align: center;
 }
 
-#myText {
+.header {
+    background-color: gray;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+#my-text {
     width: 80%;
-    text-align: center;
     margin: auto;
     margin-bottom: 6em;
+    text-align: justify;
+}
+
+.font-size {
+    font-size: 15px;
+}
+
+.display-in-line {
+display: inline-block;
+}
+
+span {
+    text-align: center;
 }
 
 .boxes{

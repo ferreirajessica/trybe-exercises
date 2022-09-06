@@ -8,7 +8,7 @@ Tipo da fonte (Font family).*/
 
 let yourName = document.getElementById('namebox');
 let buttonSaveName = document.getElementById('saveName');
-let corDoTexto = document.getElementById('cor-do-texto');
+let corDoTexto = document.getElementById('text-color');
 let buttonSaveTextColor = document.getElementById('saveColor');
 let tamanhoDaFonte = document.getElementById('tamanho-da-fonte');
 let buttonSaveFontSize = document.getElementById('saveFontSize');
