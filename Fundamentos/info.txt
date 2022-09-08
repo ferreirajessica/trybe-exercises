@@ -1,0 +1,21 @@
+  <!-- 
+  <form action="" method="">
+    <input type="text" placeholder="texto que fica na caixa" required (assim, sozinho, makes it mandatory)name="texto">
+<label for="campo que eu quero">Digite seu nome</label>
+<input type="text" placeholder="texto que fica na caixa" require class"" value="fica a palavra no campo, pré preenchida" name="texto"(campo cujo valor eu procuro) id="">
+<textarea name="" cols="30" (columns) rows="5">texto já estabelecido</textarea>
+
+<input type="checkbox" value="" name="nome que vai passar pra url quando eu submeter o form" checked(já vem marcado);
+
+<label for=""><input type ="radio" id="hub1" name='hub' value="sp">São Paulo</label> (nesse qualquer parte do radio (texto) seleciona)
+<input type="radio" id="hub1" name="hub" value="bh">Belo Horizonte nesse só clicando no botaãozinho
+<select name="estado" id="dropdown-estado"> (dropdown list)
+    <option value="sp">São Paulo</option>
+    <input type="password" name="senha">
+    <input type="file" name="" id=""...>
+
+    <button type="submit">Enviar</button>
+    </form> 
+
+    seu eu permitir que alguém submeta arquivos, preciso colocar um enctype="multipart/form-data"> do lado de method
+-->
