@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TrybeTrip</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<script src="script.js"></script>
+	
+	<div id="background">
+		<form action="" id="my-form">
+			<fieldset>
+				<legend class="bold">Nome Completo:</legend>
+				<label for="full-name">
+					<br>
+					<input type="text" minlength="10" maxlength="40" required id="full-name">
+				</label>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend class="bold">E-mail:</legend>
+				<label for="email">
+					<br>
+					<input type="email" minlength="10" maxlength="50" required id="email">
+				</label>
+			</fieldset>
+			<br>
+			<label for="radio-city">
+				<input type="radio" name="destinations" value="cidade" id="radio-city" checked>Cidade
+			</label>
+			<label for="radio-countryside">
+				<input type="radio" name="destinations" value="campo" id="radio-countryside">Campo
+			</label>
+			<label for="radio-beach">
+				<input type="radio" name="destinations" value="praia" id="radio-beach">Praia
+			</label>
+			<label for="radio-mountain">
+				<input type="radio" name="destinations" value="montanhas" id="radio-mountain"> Montanhas
+			</label>
+			<br>
+			<br>
+			<label for="text" class="bold">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+				<br>
+				<br>
+				<textarea name="contest-text" id="text" cols="63.5" rows="10" maxlength="500"></textarea>
+			</label>
+			<br>
+			<br>
+			<label for="best-date" class="bold">Qual a melhor data para realizar sua viagem?
+				<br>
+				<br>
+				<input type="date" name="date" id="best-date">
+			</label>
+			<br>
+			<br>
+			<label for="get-info" class="bold">
+				<input type="checkbox" id="get-info">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+			</label>
+			<br>
+			<br>
+			<label for="authorize-pictures" class="bold">
+				<input type="checkbox" id="authorize-pictures" required> Autorizo o uso de minhas imagens.
+			</label>
+			<br>
+			<br>
+			<button type="submit" id="submit-button">Enviar</button>
+			<button type="submit" id="clear-button">Apagar</button>
+			<br>
+			<br>
+		</form>
+	</div>
+
+</body>
+
+</html>
