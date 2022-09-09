@@ -1,0 +1,63 @@
+body {
+background-image: url(./background.png);
+background-size: cover;
+background-repeat: no-repeat;
+/* background-position: center center; */
+background-attachment: fixed;
+max-width: 80%;
+margin: 170px auto;
+}
+
+#name-section, #email-section {
+    margin-bottom: 10px;
+} 
+
+#destinations-section {
+    margin: 5px;
+}
+
+#text {
+    margin-bottom: 15px;
+}
+
+#best-date {
+    margin-left: 10px;
+}
+
+#button-section {
+    margin-top: 15px;
+} 
+
+#submit-button {
+    background-color: green;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+}
+
+#submit-button:hover{
+    background-color: #009f00;
+}
+
+#submit-button:focus{
+    background-color: #005a00;
+}
+
+#clear-button{
+    background-color: #adabab;
+    border: 0;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    color: white;
+    
+}
+
+#clear-button:hover{
+    background-color: #d2d2d2;
+}
+
+#clear-button:focus{
+    background-color: #898787;
+} 

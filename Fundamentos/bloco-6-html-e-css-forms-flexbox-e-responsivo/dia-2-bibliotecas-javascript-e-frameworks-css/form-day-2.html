@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrybeTrip</title>
+  <script src="./jquery-3.6.1.min.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div>
+    <form action="" method="post" id="my-form">
+      <div id="name-section" class="container">
+        <label for="full-name" class="form-label">Nome Completo:</label>
+        <input type="text" class="form-control" minlength="10" maxlength="40" required id="full-name">
+      </div>
+      <div id="email-section" class="container">
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" class="form-control" minlength="10" maxlength="50" required id="email">
+      </div>
+      <label for="destinations-section" class="container form-label">Para onde você gostaria de viajar?</label>
+      <div id="destinations-section" class="container">               
+        <label for="radio-city" class="form-label"></label>
+        <input type="radio" name="destinations" value="cidade" id="radio-city" checked>Cidade
+        <label for="radio-countryside" class="form-label"></label>
+        <input type="radio" name="destinations" value="campo" id="radio-countryside">Campo
+        <label for="radio-beach" class="form-label"></label>
+        <input type="radio" name="destinations" value="praia" id="radio-beach">Praia
+        <label for="radio-mountain" class="form-label"></label>
+        <input type="radio" name="destinations" value="montanhas" id="radio-mountain"> Montanhas
+      </div>
+      <div id="text-section" class="container">
+        <label for="text" class="form-label">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip?</label>
+        <textarea name="contest-text" id="text" class="form-control" cols="63.5" rows="3" maxlength="500"></textarea>
+      </div>
+      <div id="best-date-section" class="container">
+        <label for="best-date" class="form-label">Qual a melhor data para realizar sua viagem?
+          <input type="date" name="date" id="best-date">
+        </label>
+      </div>
+      <div id="direct-mail-section" class="container">
+        <label for="direct-mail" class="form-label"></label>
+        <input type="checkbox" id="direct-mail"> Gostaria de receber outras incríveis oportunidades oferecidas pela
+        Trybe?
+      </div>
+      <div id="image-rights-section" class="container">
+        <label for="image-rights" class="form-label"></label>
+          <input type="checkbox" id="image-rights" required> Autorizo o uso de minhas imagens.        
+      </div>
+      <div id="button-section" class="container">
+        <button type="submit" id="submit-button">Enviar</button>
+        <button type="reset" id="clear-button">Apagar</button>
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
