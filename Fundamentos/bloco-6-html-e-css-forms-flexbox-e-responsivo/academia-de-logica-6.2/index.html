@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Hotel Trybe</title>
+</head>
+
+<body>
+  <header class="header-trybe">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q0v72AJA-p9V_oPst_65uEG9dr1WxKN-ZYp_5gE&s" alt="Logo Trybe">
+    <h1>Hotel Trybe</h1>
+  </header>
+  <form action="" method="post">
+  <section class="hotel-form">
+    <input type="date" class="inputCheckin">
+    <input type="date" class="inputCheckout">
+  </section>
+  <section class="hotel-form">    
+    <input type="radio" name="room-type" id="id-comum" class="bedroom" value="Comum">
+    <label for="id-comum">Comum</label>    
+    <input type="radio" name="room-type" id="id-club" class="bedroom" value="Club">
+    <label for="id-club">Club</label>    
+    <input type="radio" name="room-type" id="id-luxo" class="bedroom" value="Luxo">
+    <label for="id-luxo">Luxo</label>
+  </section>
+  <section class="hotel-form">
+    <label for="n-people">Pessoas</label>
+    <select name="npeople" id="n-people">
+      <option value="1" class="nPessoas">1</option>
+      <option value="2" class="nPessoas">2</option>
+      <option value="3" class="nPessoas">3</option>
+      <option value="4" class="nPessoas">4</option>
+    </select>
+  </section>
+  <section class="hotel-form">
+    <textarea name="name-obs" id="id-obs" cols="30" rows="10" class="obs" placeholder="Observação"></textarea>
+  </section>
+  <button type="submit" id="submit-btn">Enviar</button>  
+</form>
+<section class="list-section">
+  <h2>Lista de Reservas</h2>
+  <ol></ol>
+  <button type="reset" id="clear-btn">Limpar</button>
+</section>
+  <script src="script.js"></script>
+</body>
+
+</html>
