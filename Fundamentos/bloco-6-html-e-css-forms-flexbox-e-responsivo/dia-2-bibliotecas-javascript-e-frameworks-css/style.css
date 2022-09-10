@@ -1,11 +1,19 @@
 body {
-background-image: url(./background.png);
+background-image: url(./trybetripbackground.png);
 background-size: cover;
 background-repeat: no-repeat;
 /* background-position: center center; */
 background-attachment: fixed;
 max-width: 80%;
-margin: 170px auto;
+margin: auto;
+}
+
+#header-container {
+    display: flex;
+    margin-bottom: 50px;
+    background-color: #009f00;
+    padding: 50px;
+    /* width: 270px; */
 }
 
 #name-section, #email-section {
@@ -13,7 +21,16 @@ margin: 170px auto;
 } 
 
 #destinations-section {
+    display: flex;
     margin: 5px;
+}
+
+#radio-countryside, #radio-beach, #radio-mountain {
+    margin-left: 10px;
+}
+
+#radio-city, #radio-countryside, #radio-beach, #radio-mountain {
+    margin-right: 5px;
 }
 
 #text {
@@ -26,6 +43,7 @@ margin: 170px auto;
 
 #button-section {
     margin-top: 15px;
+    margin-bottom: 100px;
 } 
 
 #submit-button {

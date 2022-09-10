@@ -19,6 +19,9 @@
 
 <body>
 
+  <header id="header-container" class="container">
+    <h1>TrybeTrip</h1>
+  </header>
   <div>
     <form action="" method="post" id="my-form">
       <div id="name-section" class="container">
@@ -29,17 +32,15 @@
         <label for="email" class="form-label">E-mail:</label>
         <input type="email" class="form-control" minlength="10" maxlength="50" required id="email">
       </div>
-      <label for="destinations-section" class="container form-label">Para onde você gostaria de viajar?</label>
-      <div id="destinations-section" class="container">               
-        <label for="radio-city" class="form-label"></label>
+      <div class="container">
+      <label for="destinations-section" class="form-label">Para onde você gostaria de viajar?</label>
+      <div id="destinations-section">        
         <input type="radio" name="destinations" value="cidade" id="radio-city" checked>Cidade
-        <label for="radio-countryside" class="form-label"></label>
-        <input type="radio" name="destinations" value="campo" id="radio-countryside">Campo
-        <label for="radio-beach" class="form-label"></label>
-        <input type="radio" name="destinations" value="praia" id="radio-beach">Praia
-        <label for="radio-mountain" class="form-label"></label>
-        <input type="radio" name="destinations" value="montanhas" id="radio-mountain"> Montanhas
+        <input type="radio" name="destinations" value="campo" id="radio-countryside">Campo        
+        <input type="radio" name="destinations" value="praia" id="radio-beach">Praia        
+        <input type="radio" name="destinations" value="montanhas" id="radio-mountain">Montanhas
       </div>
+    </div>
       <div id="text-section" class="container">
         <label for="text" class="form-label">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
           TrybeTrip?</label>
@@ -57,7 +58,7 @@
       </div>
       <div id="image-rights-section" class="container">
         <label for="image-rights" class="form-label"></label>
-          <input type="checkbox" id="image-rights" required> Autorizo o uso de minhas imagens.        
+        <input type="checkbox" id="image-rights" required> Autorizo o uso de minhas imagens.
       </div>
       <div id="button-section" class="container">
         <button type="submit" id="submit-button">Enviar</button>
