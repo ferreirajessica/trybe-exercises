@@ -15,6 +15,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
 </head>
 
 <body>
@@ -48,7 +50,7 @@
       </div>
       <div id="best-date-section" class="container">
         <label for="best-date" class="form-label">Qual a melhor data para realizar sua viagem?
-          <input type="date" name="date" id="best-date">
+          <input type="text" id="datepicker">
         </label>
       </div>
       <div id="direct-mail-section" class="container">
@@ -67,6 +69,21 @@
     </form>
   </div>
   <script src="script.js"></script>
+  <script src="pikaday.js"></script>
+  <script>
+    var picker = new Pikaday({
+        field: document.getElementById('datepicker'),
+        format: 'D MMM YYYY',
+        onSelect: function() {
+            console.log(this.getMoment().format('Do MMMM YYYY'));
+        }
+    });
+</script>
+<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+<body>
+  <script>
+    const validate = new window.JustValidate('#form');
+  </script>
 </body>
 
 </html>
